@@ -3,7 +3,7 @@
 # @Email:  philip@two-0.org
 # @Project: Python Challenge
 # @Last modified by:   two_0
-# @Last modified time: 27-09-2020
+# @Last modified time: 28-09-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Copyright 2020 © - All Rights Reserved
 #     ___ __ ._`.*.'_._ ____ רףאל
@@ -16,6 +16,7 @@ def personal_independence(income, ave_expenses):
     if type(income) == type('PASSIVE'):
         return income > ave_expenses
 from IPython.display import *
+IFrame('https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html', width=600, height=400)
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 #%%md
 #Algebraic & Geometric interpretations of Vectors
@@ -23,7 +24,7 @@ from IPython.display import *
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 IFrame('https://i.stack.imgur.com/2Set2.png', width=600, height=400)
 #%%
-YouubeVideo('fNk_zzaMoSs')
+YouTubeVideo('fNk_zzaMoSs')
 #%%
 '''
 A vector has two key characteristics, that of its angle &
@@ -46,7 +47,9 @@ vector(-12,2)
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 IFrame('https://www.qsstudy.com/wp-content/uploads/2017/03/Vectors-addition-and-subtraction.jpg', width=600, height=400)
 #%%
-YouTubeVideo('Emphi2zDMTo')
+import os
+path = '/home/two_0/Downloads/linear_algebra_Udemy'
+Video(path+'/2. Vectors/3. Vector addition and subtraction.mp4', embed=True, width=400, height=300)
 #%%
 '''
 Adding a vector in a geometric way involves using the
@@ -73,7 +76,7 @@ IFrame('https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Compatibility_
 #%%
 IFrame('https://4.bp.blogspot.com/_Ox-YAvoPntU/SPSwabSsqfI/AAAAAAAAAWs/cJU3ea83j8Y/s400/Matrix+and+Det+error.gif', width=600, height=400)
 #%%
-YouTubeVideo('ZN7YaSbY3-w')
+Video(path+'/2. Vectors/4. Vector-scalar multiplication.mp4', embed=True, width=400, height=300)
 #%%
 def scalar_multiply(scalar, vector):
     return [vector[0]*scalar, vector[1]*scalar]
@@ -109,9 +112,9 @@ dot_product([3,4],[6,7])
 #Vector Length
 IFrame('', width=600, height=400)
 #%%
-YouTubeVideo('')
+YouTubeVideo('5ptH2Xw4DZc')
 #%%
-
+Latex('$||\overline{a}|| = \sqrt{x^2+y^2}$')
 #%%
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 #%%md
