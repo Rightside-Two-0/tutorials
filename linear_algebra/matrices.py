@@ -15,12 +15,15 @@
 def personal_independence(income, ave_expenses):
     if type(income) == type('PASSIVE'):
         return income > ave_expenses
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 from IPython.display import *
 from sympy import *
 init_printing()
 a,b,c,d,e,f,g,h,i = symbols('a:i') # neat shorthand for multiple symbols!
 IFrame('https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html', width=600, height=400)
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+YouTubeVideo('kYB8IZa5AuE')
 #%%
 A = Matrix([[a,b,c],[d,e,f]])
 A
