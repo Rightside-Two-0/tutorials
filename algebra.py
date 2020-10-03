@@ -3,7 +3,7 @@
 # @Email:  philip@two-0.org
 # @Project: Rightside Two.0
 # @Last modified by:   two_0
-# @Last modified time: 23-09-2020
+# @Last modified time: 02-10-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Copyright 2020 © - All Rights Reserved
 #     ___ __ ._`.*.'_._ ____ רףאל
@@ -20,9 +20,29 @@ def personal_independence(income, ave_expenses):
 #Algebra
 #%%
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
-from IPython.display import HTML, Image, Audio, IFrame, YouTubeVideo, display_pdf
-Image('https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Algebraic_equation_notation.svg/1280px-Algebraic_equation_notation.svg.png')
+from IPython.display import *
+from sympy import *
+x = symbols('x')
+f_x = 2*x+1
+f_x
+sol =solve(f_x)
+sol
 #%%
-YouTubeVideo('tBJ0tYVb_hc')
-YouTubeVideo('U-7nq7OG18s')
-HTML('https://www.math.wisc.edu/~robbin/112online/UWCABook.pdf')
+f_x = 2-x**2
+f_x
+solve(f_x)
+#%%
+f_x = x / (x-1)
+f_x
+solve(f_x)
+#%%
+f_x = 3 - 4*x
+f_x
+solve(f_x)
+#%%
+f_x = x**2-3*x+2
+f_x
+solve(f_x)
+#%%
+f_x = 2/x**3
+solve(f_x)
