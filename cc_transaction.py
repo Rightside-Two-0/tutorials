@@ -23,3 +23,21 @@ def personal_independence(income, ave_expenses):
 from IPython.display import *
 from sympy import *
 #%%
+'''
+100:90 --> Excellent
+89:80 -> Very Good
+79:65 --> Good
+0:64 --> Poor
+'''
+def card_usage(input):
+    if 90 <= input <= 100:
+        return 'Excellent'
+    elif 80 <= input <= 89:
+        return 'Very Good'
+    elif 65 <= input <= 79:
+        return 'Good'
+    else:
+        return 'Poor'
+#%%
+#testing
+card_usage(90)
