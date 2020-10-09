@@ -41,7 +41,7 @@ df
 #total count(sales) as a function of temp
 plt.scatter(df['temp'],df['cnt'])
 #%%
-pip install sklearn
+# pip install sklearn
 from sklearn.linear_model import LinearRegression
 lm = LinearRegression()
 lm.fit(df['temp'].values.reshape(-1,1),df['cnt'].values.reshape(-1,1))
