@@ -3,7 +3,7 @@
 # @Email:  philip@two-0.org
 # @Project: Python Challenge
 # @Last modified by:   two_0
-# @Last modified time: 07-10-2020
+# @Last modified time: 10-10-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Copyright 2020 © - All Rights Reserved
 #     ___ __ ._`.*.'_._ ____ רףאל
@@ -32,7 +32,7 @@ pd.options.display.html.table_schema = True
 pd.options.display.max_rows = 150
 import os
 #%%
-df = pd.read_csv('/home/two_0/projects/tutorials/day.csv')
+df = pd.read_csv('/day.csv')
 df.shape
 df.columns
 #%%
