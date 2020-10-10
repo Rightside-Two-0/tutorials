@@ -4,7 +4,7 @@
 # @Email:  philip@two-0.org
 # @Project: Python Challenge
 # @Last modified by:   two_0
-# @Last modified time: 23-09-2020
+# @Last modified time: 10-10-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Copyright 2020 © - All Rights Reserved
 #     ___ __ ._`.*.'_._ ____ רףאל
@@ -25,7 +25,7 @@ Image('/home/two_0/projects/tutorials/python.png')
 #Ledger
 #%%
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
-path_file = '/home/two_0/projects/tutorials/Export.csv'
+path_file = ''
 df.to_csv('ledger.csv', sep=',', encoding='utf-8', index='Date')
 df_in = pd.read_csv(path_file)
 df_in.head(25)
