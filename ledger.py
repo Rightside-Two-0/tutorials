@@ -19,7 +19,7 @@ def personal_independence(income, ave_expenses):
 from IPython.display import *
 import pandas as pd
 #Image, Audio, YouTubeVideo, HTML, IFrame
-Image('/home/two_0/projects/tutorials/python.png')
+Image('python.png')
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 #%%md
 #Ledger
