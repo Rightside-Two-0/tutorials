@@ -42,10 +42,6 @@ eq1.subs(x,I)
 3+sqrt(3)
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 #%%
-#LateX
-Latex('$3 + \sqrt{3}='+str((3+math.sqrt(3)))+'$')
-#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
-#%%
 N(3+sqrt(3))
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 #%%
@@ -55,6 +51,10 @@ type(math.sqrt(3)+3)
 '''even though they give the exact same
 value they are of different types and
 therefore are not equal'''
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+#LateX
+Latex('$3 + \sqrt{3}='+str((3+math.sqrt(3)))+'$')
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 #%%
 #Graph
@@ -104,6 +104,9 @@ ord('r')
 id(ord('r'))
 ord('1')
 chr(65535)
+chr(0)
+print(chr(5))
+print(chr(8))
 #%%
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 start = 65
