@@ -3,7 +3,7 @@
 # @Email:  philip@two-0.org
 # @Project: Python Power Series
 # @Last modified by:   two_0
-# @Last modified time: 11-10-2020
+# @Last modified time: 13-10-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Copyright 2020 © - All Rights Reserved
 #     ___ __ ._`.*.'_._ ____ רףאל
@@ -26,7 +26,7 @@ import math
 import matplotlib.pyplot as plt
 #Programming = LIving algebra!
 x, y =  symbols('x y')
-eq1 = Eq(x**2+1)
+eq1 = Eq(x**2+1, 0)
 eq1
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 #%%
@@ -40,6 +40,10 @@ eq1.subs(x,I)
 #%%
 3 + math.sqrt(3)
 3+sqrt(3)
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+#LateX
+Latex('$3 + \sqrt{3}='+str((3+math.sqrt(3)))+'$')
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 #%%
 N(3+sqrt(3))
@@ -116,6 +120,7 @@ bin(1)
 bin(110)
 bin(37710)
 binary_number = bin(37710)
+binary_number
 id(binary_number)
 id(bin(37710))
 id(bin(37710))
@@ -124,3 +129,13 @@ bin(id(bin(37710)))
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 #_ int(): returns the base 10 integer
 int(binary_number, 2)
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+greeting = 'Hello ' + name[0:1].upper()+name[1:]
+greeting
+res = ''.join(format(ord(i), 'b') for i in greeting)
+res
+#%%md
+##Exercises
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
