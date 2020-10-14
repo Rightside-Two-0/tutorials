@@ -24,3 +24,27 @@ from IPython.display import *
 from sympy import *
 import math
 import matplotlib.pyplot as plt
+#Programming = Living algebra!
+x, y = symbols('x y')
+eq1 = Eq(x**2+1, 0)
+eq1
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+solution = solve(eq1)
+solution
+-1 == I**2
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+eq1.subs(x,I)
+3+sqrt(3)
+3+math.sqrt(3)
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+N(3+sqrt(3))
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+3+sqrt(3) == 3+math.sqrt(3)
+type(N(3+sqrt(3)))
+type(3+math.sqrt(3))
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
