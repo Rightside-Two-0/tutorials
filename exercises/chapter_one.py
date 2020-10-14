@@ -142,3 +142,66 @@ res
 ##Exercises
 #%%
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#mailing address
+print('4747 E 1st\nTucson, AZ 85711')
+street = '4747 E 1st'
+city_state = 'Tucson, AZ 85711'
+print(street+'\n'+city_state)
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#Hello+
+name = input('What is your name?')
+print('Hello '+name)
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#Area of room
+width = float(input('Enter width(feet):'))
+length = float(input('Enter length(feet):'))
+area = width*length
+print(f'The area of your room is {area} feet square.')
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#Area of a Field
+width = float(input('Enter width(feet):'))
+length = float(input('Enter length(feet):'))
+area_feet = width*length
+print(f'The area of your field is {round(area_feet/43560, 2)} acre.')
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#Bottle deposit
+small_deposit = 0.1
+big_deposit = .25
+small = int(input('How many bottles less than or equal to 1 liter?'))
+big = int(input('How many bottles greater than 1 liter?'))
+refund = '{0:,.2f}'.format(small_deposit*small+big_deposit*big)
+print(f'Your refund will be ${refund}')
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#Tax & Tip
+cost = float(input('What was the cost of your meal?'))
+tax = .08
+tip = .18
+tax_amount = '{0:,.2f}'.format(tax*cost)
+tip_amount = '{0:,.2f}'.format(cost*tax)
+total = '{0:,.2f}'.format(cost+tip+tax)
+print(f'Thank you, your tax was ${tax_amount} and your tip was ${tip_amount}\nmaking your grand total ${total}')
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#Sum of the 1st n integers
+n, summed = symbols('n sum')
+number = int(input('Enter a positive integer'))
+total = Eq((n*(n+1))/2, summed)
+total
+print(f'The sum up to your number {number} is {str(int((number*(number+1))/2))}')
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#Widgets & Gizmos
+widget_weight = 75
+gizmo_weight = 112
+widgets = int(input('How many widgets were sold?'))
+gizmos =  int(input('How many gizmos were sold?'))
+total_weight = '{0:,.2f}'.format((widgets*widget_weight+gizmos*gizmo_weight)/1000)
+print(f'The total weight of the parts to be shipped are {total_weight} kilograms')
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#Compound Interest
