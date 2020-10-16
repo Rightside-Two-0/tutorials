@@ -3,7 +3,7 @@
 # @Email:  philip@two-0.org
 # @Project: Python Power Series
 # @Last modified by:   two_0
-# @Last modified time: 14-10-2020
+# @Last modified time: 16-10-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Copyright 2020 © - All Rights Reserved
 #     ___ __ ._`.*.'_._ ____ רףאל
@@ -36,8 +36,10 @@ solution
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 #%%
 eq1.subs(x,I)
-3+sqrt(3)
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
 3+math.sqrt(3)
+3+sqrt(3)
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 #%%
 N(3+sqrt(3))
@@ -46,5 +48,39 @@ N(3+sqrt(3))
 3+sqrt(3) == 3+math.sqrt(3)
 type(N(3+sqrt(3)))
 type(3+math.sqrt(3))
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+Latex('$3+\sqrt{3}='+str(N(3+sqrt(3)))+'$')
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+#Graph
+plot(x)
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+plot(x**2+1)
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+plot(sin(x), (x,-pi,pi), line_color='purple')
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+plot(sqrt(x)*sin(x))
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+plot(x)
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+plot(-x)
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+plot(x-7)
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+plot(x+7)
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+plot(3*x)
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%
+plot(x/3)
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 #%%
