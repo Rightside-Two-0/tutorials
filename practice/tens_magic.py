@@ -3,7 +3,7 @@
 # @Email:  philip@two-0.org
 # @Project: Python Challenge
 # @Last modified by:   two_0
-# @Last modified time: 25-09-2020
+# @Last modified time: 16-10-2020
 # @License: https://github.com/Rightside-Two-0/Rightside_Two.0/blob/master/LICENSE
 # @Copyright: Copyright 2020 © - All Rights Reserved
 #     ___ __ ._`.*.'_._ ____ רףאל
@@ -40,4 +40,4 @@ ten_magic(17)
 ten_magic(30)
 ten_magic(22)
 ten_magic(50)
-ten_magic(220009)
+ten_magic(4886)
