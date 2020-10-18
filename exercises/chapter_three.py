@@ -72,3 +72,33 @@ get_room_area()
 assert get_room_area() == 13*42
 #%%
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+# Field aread given in acres 43,560
+def get_field_area():
+    width_field = float(input('Input width of field in feet'))
+    length_field = float(input('Input length of field in feet'))
+    return (width_field*length_field)/43560
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+get_field_area()
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+# Bottle return  1L:.10, >1L:.25
+def bottle_return():
+    less_than = int(input('Enter the number of bottles less than or equal to 1 liter'))
+    more_than = int(input('Enter the number of bottles more than 1 liter'))
+    return '$'+'{0:,.2f}'.format(less_than*.1+more_than*.25)
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+bottle_return()
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#Tax & tip
+def get_tax_tip():
+    tax_rate = 0.0825
+    tip_rate = 0.18
+    cost_meal = float(input('Please enter cost of meal'))
+    tip_amount = tip_rate*cost_meal
+    tax_amount = tax_rate*cost_meal
+    total_cost_meal = tip_amount+tax_amount+cost_meal
+    f = lambda x: '{0:,.2f}'.format(x)
+    return f'Your tax is: {f(tax_amount)}\nYour tip amount is: {f(tip_amount)}\nYour total due is: {f(total_cost_meal)}'
