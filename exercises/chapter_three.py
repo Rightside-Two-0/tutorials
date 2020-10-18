@@ -119,3 +119,5 @@ def get_tax_tip():
 #%%
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
 print(get_tax_tip())
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
