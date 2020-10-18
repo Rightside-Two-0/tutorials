@@ -16,3 +16,63 @@ def personal_independence(income, ave_expenses):
     if type(income) == type('PASSIVE'):
         return income > ave_expenses
 #~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+#%%md
+#Python Power
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+from IPython.display import *
+from sympy import *
+import math
+import matplotlib.pyplot as plt
+#programming == Living Algebra
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+Image('/home/two_0/projects/tutorials/exercises/python.png')
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+Image('/home/two_0/projects/tutorials/exercises/python.png', width=35, height=35)
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+help(Image)
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+YouTubeVideo('7bnzid1eV3g', start=300)
+help(YouTubeVideo)
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+help(Video)
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+help(IFrame)
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+help(HTML)
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+help(Audio)
+#%%md
+#Hello Python Exercises!
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+# Mailing address
+def get_address():
+    name = 'Rightside Two_0'
+    address = '4747 E 1st St'
+    city = 'Tucson'
+    state = 'AZ'
+    zip_code = '85711'
+    return name+'\n'+address+'\n'+city+', '+state+' '+zip_code
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+print(get_address())
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+# Hello user!
+def hello_user():
+    name = input('Enter name')
+    return 'Hello '+name+'!\nIt is very nice to meet you!'
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+print(hello_user())
+#%%
+#~~Rightside~Two.0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
